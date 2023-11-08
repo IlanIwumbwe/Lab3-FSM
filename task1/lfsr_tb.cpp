@@ -40,6 +40,7 @@ int main(int argc, char** argv, char** env){
         }
 
         vbdHex(1, top->data_out & 0xF);
+        vbdHex(2, (top->data_out >> 4) & 0xF);
         vbdBar(top->data_out & 0xFF);
         vbdCycle(simcycles+1);
 

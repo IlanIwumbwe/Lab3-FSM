@@ -43,6 +43,6 @@ VL_ATTR_COLD void Vlfsr___024root___ctor_var_reset(Vlfsr___024root* vlSelf) {
     vlSelf->clk = VL_RAND_RESET_I(1);
     vlSelf->en = VL_RAND_RESET_I(1);
     vlSelf->rst = VL_RAND_RESET_I(1);
-    vlSelf->data_out = VL_RAND_RESET_I(4);
-    vlSelf->lfsr__DOT__sreg = VL_RAND_RESET_I(4);
+    vlSelf->data_out = VL_RAND_RESET_I(7);
+    vlSelf->lfsr__DOT__sreg = VL_RAND_RESET_I(7);
 }
